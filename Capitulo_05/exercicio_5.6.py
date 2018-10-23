@@ -12,9 +12,9 @@ Pedindo ao usuário que digite o número da tabuada'''
 o fim é onde vai multiplicar'''
 
 x = int(input('Digite o ìnicio: '))
-n = int(input('Digite o fim: '))
+n = int(input('Digite o número da tabuada: '))
 
-while x <= n:
+while x <= 10:
     print('{} x {} = {}'.format(n, x, n*x))
     x=x+1
 
