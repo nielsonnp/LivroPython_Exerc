@@ -15,8 +15,9 @@ x = int(input('Digite o ìnicio: '))
 n = int(input('Digite o número da tabuada: '))
 
 while x <= 10:
-    print('{} x {} = {}'.format(n, x, n*x))
+    print('{} x {} = {}'.format(n, x, n*x))  #tabuada de multiplicação
     x=x+1
+
 
 
 
